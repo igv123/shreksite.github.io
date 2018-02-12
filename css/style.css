@@ -1,0 +1,123 @@
+* {
+	box-sizing: inherit;
+}
+body {
+	font-family: "Arial - Bold MT";
+}
+button:focus {
+	outline: none;
+}
+.header	{
+	text-align: center;	
+	background-color: #000000;
+}
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header-img {
+	display: inline-block;
+	width: 50%;
+	height: 619px;
+	margin-top: 54px;
+	margin-bottom: 0px;
+}
+
+.header-text__title {
+	/* "ШААААААААА" */
+	height: 72px;
+	color: #ffffff;
+	font-family: "Arial - Bold MT";
+	font-size: 100px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-bottom: 49px;
+}
+.header-text__subtitle {
+	/* "Испугался?" */
+	height: 45px;
+	color: #ffffff;
+	font-family: "Arial - Bold MT";
+	font-size: 60px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 49px;
+	margin-bottom: 54px;
+}
+.main {
+	background-color: #323e1c;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	height: 400px;
+}
+.main-text {
+	/* левый блок */
+	display: inline-block;
+	max-width: 50%;
+	padding-left: 126px;
+	max-height: 95%;
+	color: #ffffff;
+	font-family: "Arial - Bold MT";
+	font-size: 36px;
+	font-weight: 400;
+}
+.main-title {
+	padding-top: 28px;
+	max-width: 557px;
+}
+.main-text-info {
+	padding-top: 39px;
+	height: 168px;
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 24px;
+	font-weight: 400;
+}
+.main-map {
+	display: inline-block;
+	max-width: 50%;
+	padding-right: 104px;
+	padding-left: 187px;
+}
+.features {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	height: 400px;
+	background-color: #475828;
+	padding-top: 70px;
+	padding-bottom: 60px;
+}
+
+.features-wrap::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.features-block {
+	background-color: #85a44b;
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	float: left;
+	font-size: 24px;
+	color: #634a10;
+	letter-spacing: 1.2px;
+	font-weight: 400;
+	text-transform: uppercase;
+	border: 1px solid #634a10;
+}
+.features-block__img {
+	min-height: 150px;
+}
+.shrek {
+	text-align: center;
+	background-color: #323e1c;
+}
